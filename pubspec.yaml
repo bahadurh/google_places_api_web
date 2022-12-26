@@ -1,0 +1,15 @@
+name: nova_places_api
+description: The Places API lets you search for place information using a variety of categories, including establishments, prominent points of interest, and geographic locations. You can search for places either by proximity or a text string. A Place Search returns a list of places along with summary information about each place.
+version: 1.2.0
+repository: 'https://github.com/nova-flutter/nova_places_api'
+issue_tracker: 'https://github.com/nova-flutter/nova_places_api/issues'
+
+environment:
+  sdk: '>=2.18.4 <3.0.0'
+
+dependencies:
+  nova_google_services_core: ^1.0.0
+
+dev_dependencies:
+  lints: ^2.0.0
+  test: ^1.16.0
